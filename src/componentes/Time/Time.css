@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+.time {
+    text-align: center;
+    padding: 32px;
+    background-color: #d9f7e9;
+}
+
+.time h3 {
+    font-family: 'Prata', serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    border-bottom: 4px solid #57C278;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+.time-colabs {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+.programacao.time h3 { border-bottom-color:  #57C278; }
+.frontend.time h3 { border-bottom-color:  #82CFFA; }
+.datascience.time h3 { border-bottom-color:  #A6D157; }
+.devops.time h3 { border-bottom-color:  #E06B69; }
+.uxdesign.time h3 { border-bottom-color:  #DB6EBF; }
+.mobile.time h3 { border-bottom-color:  #FFBA05; }
+.gestao.time h3 { border-bottom-color:  #FF8A29; }
+
+.programacao.time { background-color: #D9F7E9; }
+.frontend.time { background-color: #E8F8FF; }
+.datascience.time { background-color: #F0F8E2; }
+.devops.time { background-color: #FDE7E8; }
+.uxdesign.time { background-color: #FAE9F5; }
+.mobile.time { background-color: #FFF5D9; }
+.gestao.time { background-color: #FFEEDF; }
